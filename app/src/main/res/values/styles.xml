@@ -1,0 +1,217 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorWhite</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="TextBlackBoltStyle">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/montserrat_semibold
+        </item>
+    </style>
+
+    <style name="TextBlackNormalStyle">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/montserrat_medium</item>
+    </style>
+
+    <style name="TextBlackThickStyle">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/montserrat_regular</item>
+    </style>
+
+    <style name="TextBlackBoltStyle.Size16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextBlackBoltStyle.Size10">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="TextBlackNormalStyle.Size16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextBlackThickStyle.Size16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!--purple-->
+    <style name="TextPurpleThickStyle">
+        <item name="android:textColor">@color/colorPurple</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/montserrat_regular</item>
+    </style>
+
+    <style name="TextPurpleNormalStyle">
+        <item name="android:textColor">@color/colorPurple</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/montserrat_medium</item>
+    </style>
+
+    <style name="TextPurpleBoltStyle">
+        <item name="android:textColor">@color/colorPurple</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/montserrat_semibold
+        </item>
+    </style>
+
+    <style name="TextPurpleThickStyle.Size14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextPurpleBoltStyle.Size14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextPurpleNormalStyle.Size10">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <!--white-->
+    <style name="TextWhiteThickStyle">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/montserrat_regular</item>
+    </style>
+
+    <style name="TextWhiteNormalStyle">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/montserrat_medium</item>
+    </style>
+
+    <style name="TextWhiteBoltStyle">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/montserrat_semibold
+        </item>
+    </style>
+
+    <style name="TextWhiteThickStyle.Size14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextWhiteBoltStyle.Size14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextWhiteBoltStyle.Size12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextWhiteNormalStyle.Size10">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <!--grey-->
+    <style name="TextGreyThickStyle">
+        <item name="android:textColor">@color/colorDarkGrey</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/montserrat_regular</item>
+    </style>
+
+    <style name="TextGreyNormalStyle">
+        <item name="android:textColor">@color/colorDarkGrey</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/montserrat_medium</item>
+    </style>
+
+    <style name="TextGreyBoltStyle">
+        <item name="android:textColor">@color/colorDarkGrey</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/montserrat_semibold
+        </item>
+    </style>
+
+    <style name="TextGreyThickStyle.Size17">
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="TextGreyThickStyle.Size14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextGreyBoltStyle.Size14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!--graphite-->
+    <style name="TextGraphiteThickStyle">
+        <item name="android:textColor">@color/colorGraphite</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/montserrat_regular</item>
+    </style>
+
+    <style name="TextGraphiteNormalStyle">
+        <item name="android:textColor">@color/colorGraphite</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/montserrat_medium</item>
+    </style>
+
+    <style name="TextGraphiteBoltStyle">
+        <item name="android:textColor">@color/colorGraphite</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/montserrat_semibold
+        </item>
+    </style>
+
+    <style name="TextGraphiteThickStyle.Size14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextGraphiteNormalStyle.Size14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextGraphiteBoltStyle.Size14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="PrimaryButtonStyle">
+        <item name="android:textAppearance">@style/TextWhiteBoltStyle.Size14</item>
+        <item name="android:background">@drawable/round_corners</item>
+        <item name="android:backgroundTint">@color/colorPurple</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:minWidth">114dp</item>
+    </style>
+
+    <style name="SecondaryEditTextStyle">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:theme">@style/TextInputLayoutTheme</item>
+        <item name="android:background">@drawable/bg_slim_stroke_blue_corner_round</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif</item>
+    </style>
+
+    <style name="TextInputLayoutTheme">
+        <item name="android:textColorHighlight">@color/colorDarkGrey</item>
+        <item name="android:textColorLink">@color/colorPurple</item>
+        <item name="android:textColorHint">@color/colorDarkGrey</item>
+        <item name="colorAccent">@color/colorPurple</item>
+        <item name="colorControlNormal">@color/colorPurple</item>
+        <item name="android:textStyle">normal</item>
+        <item name="colorControlActivated">@color/colorPurple</item>
+    </style>
+
+</resources>

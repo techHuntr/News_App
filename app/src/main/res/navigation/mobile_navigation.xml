@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_top_news">
+
+    <fragment
+        android:id="@+id/navigation_top_news"
+        android:name="com.ewind.newsapi.ui.main.topnews.TopNewsFragment"
+        android:label="@string/title_top_news" />
+
+    <fragment
+        android:id="@+id/navigation_news"
+        android:name="com.ewind.newsapi.ui.main.news.NewsFragment"
+        android:label="@string/title_news" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.ewind.newsapi.ui.main.profile.ProfileFragment"
+        android:label="@string/title_profile" />
+</navigation>
