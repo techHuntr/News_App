@@ -4,14 +4,6 @@ import android.text.Editable
 import android.text.TextWatcher
 import android.widget.EditText
 
-
-
-/**
- * This extension supports EditText validation such as emails, maximum and minimum length
- * inspired from
- * @see https://proandroiddev.com/easy-edittext-content-validation-with-kotlin-316d835d25b3
- * */
-
 fun EditText.afterTextChanged(afterTextChanged: (String) -> Unit) {
     val textWatcher = object : TextWatcher {
         override fun afterTextChanged(s: Editable?) {
@@ -25,14 +17,7 @@ fun EditText.afterTextChanged(afterTextChanged: (String) -> Unit) {
     this.addTextChangedListener(textWatcher)
 }
 
-/**
- * You can validate the EditText like
- *
- * et_email.validate("Valid email address required"){ s -> s.isValidEmail() }
- *
- * et_email.validate("Minimum length is 6"){ s-> s.length>=6 }
- *
- * */
+
 fun EditText.validate(message: String, validator: (String) -> Boolean): Boolean {
     this.afterTextChanged {
         this.error = if (validator(it)) null else message

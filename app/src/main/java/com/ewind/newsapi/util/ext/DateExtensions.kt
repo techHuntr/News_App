@@ -7,18 +7,10 @@ import java.util.concurrent.TimeUnit
 
 
 const val YYYY_MM_DD = "yyyy-MM-dd"
-const val DD_MM_YYYY = "dd/MM/yyyy"
-const val DD_MMM = "dd MMM"
-const val DD = "dd"
-const val HH_MM = "h:mm a"
 const val DD_MMM_YYYY = "dd MMM, yyyy"
 const val DD_MMM_YYYY_H_MM_A = "dd MMM, yyyy  h:mm a"
-const val DD_MMMM_EEEE = "dd'%s' MMMM, EEEE"
-const val DD_MMM_YYYY_H_MM_AP = "dd/MMM/yyyy h:mm a"
-const val EEEE_DD_MMMM = "EEEE dd MMMM"
-const val YYYY_MM_DD_hh_mm_ss = "yyyy-MM-dd HH:mm:ss"
 const val YYYY_MM_DDThh_mm_ssZ = "yyyy-MM-dd'T'HH:mm:ss'Z'" //2019-11-28T16:10:00Z
-const val EE_DD_MMM = "EE dd MMM"
+
 
 
 fun String.toDate(format: String): Date? {
